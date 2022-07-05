@@ -27,7 +27,7 @@ const Contact = () => {
 
 
           </div>
-          <p className="py-6 underline underline-offset-1 ">Submit the form below to get in touch with me</p>
+          {/* <p className="py-6 underline underline-offset-1 ">Submit the form below to get in touch with me</p>
         </div>
 
         <div className=" flex justify-center items-center">
@@ -58,7 +58,7 @@ const Contact = () => {
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>
