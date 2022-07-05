@@ -21,14 +21,14 @@ const Projects = () => {
     {
       id: 1,
       src: arrayDestruct,
-      live: "https://github.com/raushansft/Zara-Clone.git",
+      live: "https://sanojzaraclone.netlify.app/",
       code:"https://github.com/raushansft/Zara-Clone.git"
     },
     {
       id: 2,
-      src: reactParallax,
-      live : "https://raushansft.github.io/Calculator-Using-HTML-CSS-JavaScript/",
-      code : "https://github.com/raushansft/Calculator-Using-HTML-CSS-JavaScript.git",
+      src: dineout,
+      live : "https://raushansft.github.io/Dineout-Clone/",
+      code : "https://github.com/raushansft/Dineout-Clone.git"
     },
     {
       id: 3,
@@ -38,9 +38,10 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: dineout,
-      live : "https://raushansft.github.io/Dineout-Clone/",
-      code : "https://github.com/raushansft/Dineout-Clone.git"
+      src: reactParallax,
+      live : "https://raushansft.github.io/Calculator-Using-HTML-CSS-JavaScript/",
+      code : "https://github.com/raushansft/Calculator-Using-HTML-CSS-JavaScript.git",
+     
     },
     // {
     //   id: 5,

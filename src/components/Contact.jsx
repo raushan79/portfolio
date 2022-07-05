@@ -1,4 +1,6 @@
 import React from "react";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsTelephone } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -6,12 +8,26 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
+
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <div className="to-gray-800 pt-10 ">
+            <div className="flex space-x-2.5">
+            <HiOutlineMail size={30} />
+            <p className="text-2xl">Email : raushansft@gmail.com</p>
+            </div>
+           <div className="flex space-x-2.5 py-6">
+           <BsTelephone size={30} />
+            <p className="text-2xl">Mobile No : 9122102491</p>
+           </div>
+
+
+
+          </div>
+          <p className="py-6 underline underline-offset-1 ">Submit the form below to get in touch with me</p>
         </div>
 
         <div className=" flex justify-center items-center">

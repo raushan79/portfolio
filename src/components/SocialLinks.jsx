@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { HiOutlineMail } from "react-icons/hi";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
 import {BsWhatsapp} from 'react-icons/bs'
 
 const SocialLinks = () => {
@@ -24,19 +24,10 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/raushansft",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:raushansft@gmail.com",
     }
     ,
     {
-      id: 4,
+      id: 3,
       child: (
         <>
           WhatsApps <BsWhatsapp size={30} />
@@ -45,18 +36,7 @@ const SocialLinks = () => {
       href: "https://api.whatsapp.com/send/?phone=919973595208&text&type=phone_number&app_absent=0",
     }
     ,
-    {
-      id: 5,
-      child: (
-        <>
-          Contact : 9122102491 <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "tel:912-210-2491",
-      style: "rounded-br-md",
-      
-    }
-    ,
+   
     // {
     //   id: 6,
     //   child: (
