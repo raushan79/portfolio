@@ -1,8 +1,12 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
+import './Project.css';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
+  
   return (
     <div
       name="contact"
@@ -12,16 +16,40 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
+          Get in Touch
           </p>
-          <div className="to-gray-800 pt-10 ">
+          <div className="to-gray-800 pt-10 contact-ele-own ">
             <div className="flex space-x-2.5">
-            <HiOutlineMail size={30} />
+            <HiOutlineMail size={40} />
             <p className="text-2xl">Email : raushansft@gmail.com</p>
             </div>
            <div className="flex space-x-2.5 py-6">
-           <BsTelephone size={30} />
+           <BsTelephone size={40} />
             <p className="text-2xl">Mobile No : 9122102491</p>
+           </div>
+           <div className="contact-container">
+             <a className="icon" href="https://www.linkedin.com/in/raushansft/"  target="_blank"
+              rel="noreferrer"
+             
+             ><FaLinkedin size={50} />
+             <p>Linkedin</p>
+             </a>
+
+
+             <a className="icon" href= "https://github.com/raushansft"
+              target="_blank"
+              rel="noreferrer"
+             >
+              <FaGithub size={50} />
+              <p>Github</p>
+             </a>
+             <a className="icon"  href= "https://api.whatsapp.com/send/?phone=919122102491&text&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
+             >
+              <BsWhatsapp size={50}/>
+              <p>WhatsApp</p>
+             </a>
            </div>
 
 
