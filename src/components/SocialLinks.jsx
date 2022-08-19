@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
-import {BsWhatsapp} from 'react-icons/bs'
+import { BsWhatsapp } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
@@ -24,8 +24,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/raushansft",
-    }
-    ,
+    },
     {
       id: 3,
       child: (
@@ -33,21 +32,8 @@ const SocialLinks = () => {
           WhatsApps <BsWhatsapp size={30} />
         </>
       ),
-      href: "https://api.whatsapp.com/send/?phone=919973595208&text&type=phone_number&app_absent=0",
-    }
-    ,
-   
-    // {
-    //   id: 6,
-    //   child: (
-    //     <>
-    //       Resume <BsFillPersonLinesFill size={30} />
-    //     </>
-    //   ),
-    //   href: "/resume.pdf",
-    //   style: "rounded-br-md",
-    //   download: true,
-    // },
+      href: "https://api.whatsapp.com/send/?phone=919122102491&text&type=phone_number&app_absent=0",
+    },
   ];
 
   return (

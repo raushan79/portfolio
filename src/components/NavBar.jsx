@@ -48,13 +48,15 @@ const NavBar = () => {
 
 
 {/* my code here  */}
+
+
+
         
 
         <li>
         <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1SKKy8Rv0Huu9r0EuT-YHAmxT5pWlK0BT/view?usp=sharing"
               className="px-4 cursor-pointer capitalize font-medium  hover:scale-105 duration-200"
-              download={true}
               target="_blank"
               rel="noreferrer"
             >
